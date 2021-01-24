@@ -1,0 +1,17 @@
+{
+  "blogs": [
+    {
+      "author": "akbar",
+      "title": "initial post",
+      "body": "git init\ngit add .\ngit commit -m \"🚀 Initial commit\"\ngit push origin master",
+      "tags": [
+        "git",
+        "github",
+        "react",
+        "js"
+      ],
+      "timestamp": 1611457374421,
+      "id": 1
+    }
+  ]
+}

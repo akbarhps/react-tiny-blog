@@ -9,6 +9,7 @@ import Home from './routes/Home';
 import CreateBlog from './routes/CreateBlog';
 import BlogDetails from './routes/BlogDetails';
 import PostsByTag from './routes/PostsByTag';
+import NotFound from './routes/NotFound';
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
             </Route>
             <Route path="/tags/:tag">
               <PostsByTag />
+            </Route>
+            <Route path="*">
+              <NotFound />
             </Route>
           </Switch>
         </div>
